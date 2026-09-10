@@ -2,11 +2,11 @@ name: macOS latest
 
 on:
   pull_request:
-  push:
-    branches:
-      - 'ign-common[0-9]'
-      - 'gz-common[1-9]?[0-9]'
-      - 'main'
+  # push:
+  #   branches:
+  #     - 'ign-common[0-9]'
+  #     - 'gz-common[1-9]?[0-9]'
+  #     - 'main'
 
 jobs:
   build:
